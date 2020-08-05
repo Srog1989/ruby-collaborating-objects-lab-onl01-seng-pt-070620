@@ -14,7 +14,6 @@ class Song
     song.artist, song.title = filename.split(" - ")
     song
   end
-  binding.pry
 end
   
   
