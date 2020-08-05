@@ -16,8 +16,8 @@ end
 
 
 def import
-  self.files.each do |filename|
-      Song.new_by_filename(filename)
+  self.files.each do |files|
+      Song.new_by_filename(files)
     end
   end
 end
