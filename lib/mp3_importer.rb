@@ -18,6 +18,6 @@ end
 
 def import
 Song.new_by_filename(some_filename)
-Song << some_filename.create 
+
 end
 end
