@@ -16,6 +16,7 @@ class Song
     song.artist = song_info[0]
     song
   end
+  self.
 end
   
   
