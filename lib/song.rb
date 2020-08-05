@@ -14,7 +14,7 @@ class Song
     song_info = file.chomp(".mp3").split(" - ")
     song = self.new(song_info[1])
    artist = Artist.find_or_create_by_name(song_info[0])
-    song.artist = artist
+    song
   end
   
 end
