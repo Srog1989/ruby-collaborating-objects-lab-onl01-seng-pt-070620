@@ -9,7 +9,6 @@ end
 
 def files
   files = Dir.glob("#{@path}/*.mp3")
-  #binding.pry
   files.collect do |song|
   song.gsub!("#{@path}/","")
 end
