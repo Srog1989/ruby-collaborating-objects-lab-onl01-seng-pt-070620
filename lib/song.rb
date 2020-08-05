@@ -13,8 +13,8 @@ class Song
     song = self.new
     song.artist, song.title = filename.split(" - ")
     song
-    binding.pry
   end
+  binding.pry
 end
   
   
